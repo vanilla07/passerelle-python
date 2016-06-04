@@ -28,10 +28,10 @@ When the server is running, the API is available here : http://0.0.0.0:8000.
 Use the following urls when testing the API.
 
       GET     /rooms (passerelle.models Room)
-	    GET     /rooms/{id} (passerelle.models Room)
-	    
+      GET     /rooms/{id} (passerelle.models Room)
+      
       GET     /bookings (passerelle.models Booking)
-	    GET     /bookings/{id} (passerelle.models Booking)
-
-	    GET     /closures (passerelle.models Closure)
-	    GET     /closures/{id} (passerelle.models Closure)
+      GET     /bookings/{id} (passerelle.models Booking)
+      
+      GET     /closures (passerelle.models Closure)
+      GET     /closures/{id} (passerelle.models Closure)
