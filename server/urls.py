@@ -18,8 +18,8 @@ from rest_framework.routers import DefaultRouter
 from passerelle.views import RoomViewSet, BookingViewSet, ClosureViewSet
 
 router = DefaultRouter()
-router.register(prefix='Rooms', viewset=RoomViewSet)
-router.register(prefix='Bookings', viewset=BookingViewSet)
-router.register(prefix='Closures', viewset=ClosureViewSet)
+router.register(prefix='rooms', viewset=RoomViewSet)
+router.register(prefix='bookings', viewset=BookingViewSet)
+router.register(prefix='closures', viewset=ClosureViewSet)
 
 urlpatterns = router.urls

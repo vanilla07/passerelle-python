@@ -12,7 +12,7 @@ class Room(models.Model):
 
 class Booking(models.Model):
     """ Booking for one room."""
-    room = models.ForeignKey(Room, on_delete=models.PROTECT)
+    room = models.ForeignKey('Room', on_delete=models.PROTECT)
     name = models.CharField(max_length=100)
     email = models.EmailField()
     guests_number = models.IntegerField()
@@ -34,7 +34,7 @@ class Closure(models.Model):
 
 class ClosureRoom(models.Model):
     """ Joint table between rooms and closures."""
-    room = models.ForeignKey(Room, on_delete=models.PROTECT)
-    closure = models.ForeignKey(Closure, on_delete=models.CASCADE)
+    room = models.ForeignKey('Room', on_delete=models.PROTECT)
+    closure = models.ForeignKey('Closure', on_delete=models.CASCADE)
 
 
