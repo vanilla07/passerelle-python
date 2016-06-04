@@ -6,6 +6,10 @@ Another REST API for La Passerelle des Corton
 A REST API to manage bookings for La Passerelle.
 
 * Backend : Python 3.5 / Django 1.9 / SQLite3 
+ 
+*Database schema :* 
+
+![alt tag](doc/passerelle_db.png)
 
 # Running The Application
 
