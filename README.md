@@ -25,20 +25,28 @@ To run the application run the following commands in passerelle-python.
 When the server is running, the API is available here : http://0.0.0.0:8000.
 Use the following urls when testing the API.
 
-      GET     /rooms (passerelle.models Room)
-      GET     /rooms/{id} (passerelle.models Room)
-      POST    /rooms/ (passerelle.models Room)
-      PUT     /rooms/{id}/ (passerelle.models Room)
-      DELETE  /rooms/{id} (passerelle.models Room)
+passerelle.models Room
+
+      GET     http://0.0.0.0:8000/rooms 
+      GET     http://0.0.0.0:8000/rooms/{id} 
+      POST    http://0.0.0.0:8000/rooms/ 
+      PUT     http://0.0.0.0:8000/rooms/{id}/ 
+      DELETE  http://0.0.0.0:8000/rooms/{id}
       
-      GET     /bookings (passerelle.models Booking)
-      GET     /bookings/{id} (passerelle.models Booking)
-      POST    /bookings/ (passerelle.models Booking)
-      PUT     /bookings/{id}/ (passerelle.models Booking)
-      DELETE  /bookings/{id} (passerelle.models Booking)
+passerelle.models Booking      
+
+      GET     http://0.0.0.0:8000/bookings 
+      GET     http://0.0.0.0:8000/bookings/{id} 
+      POST    http://0.0.0.0:8000/bookings/ 
+      PUT     http://0.0.0.0:8000/bookings/{id}/ 
+      DELETE  http://0.0.0.0:8000/bookings/{id} 
+
+passerelle.models Closure
       
-      GET     /closures (passerelle.models Closure)
-      GET     /closures/{id} (passerelle.models Closure)
-      POST    /closures/ (passerelle.models Closure)
-      PUT     /closures/{id}/ (passerelle.models Closure)
-      DELETE  /closures/{id} (passerelle.models Closure)
+      GET     http://0.0.0.0:8000/closures 
+      GET     http://0.0.0.0:8000/closures/{id} 
+      POST    http://0.0.0.0:8000/closures/ 
+      PUT     http://0.0.0.0:8000/closures/{id}/ 
+      DELETE  http://0.0.0.0:8000/closures/{id} 
+
+
