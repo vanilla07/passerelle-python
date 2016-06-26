@@ -15,7 +15,7 @@ A REST API to manage bookings for La Passerelle.
 
 To run the application run the following commands in passerelle-python.
 
-* To setup the h2 database run.
+* To setup the SQLite3 database run.
 
 		python3 server/manage.py makemigrations passerelle
 		python3 server/manage.py migrate
